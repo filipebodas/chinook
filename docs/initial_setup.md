@@ -1,11 +1,10 @@
-# **CONNECT TO SQL SERVER**
+# **CONNECT TO POSTGRESQL DATABASE**
 
-Since I am using VS Code let's start by installing the mssql extension.
+Since I am using VS Code let's start by installing the SQLTools extension and SQLTools PostgreSQL/Cockroach Driver extension.
 
-After installing the extension we need to Add Connection. Here's the info needed:
-  - Server name (type ```SELECT @@SERVERNAME```) and copy-paste into VS Code.
-  - Database is optional, not needed for now
-  - Integration type: Integrated means Windows Authentication
-  - Profile Name: A name of your choice to the connection
-
-After that click the Enable Trust Server Certificate button.
+After installing the extension we need to **Add New Connection**. Here's the info needed:
+  - Connection name
+  - Server name: in my case localhost  
+  - Port
+  - Database: chinook for this project purpose 
+  - username and password
